@@ -1,0 +1,31 @@
+modules:
+    setup-environment:
+        name: Setup Environment
+        exit_sign: Workshop Overview
+    workshop-overview:
+        name: Workshop Overview
+        exit_sign: Inner Loop (1/2)
+    exercises/App-Accelerator:
+        name: Inner Loop - Application Accelerator for VMware Tanzu
+        exit_sign: Inner Loop (2/2)
+    exercises/Developer-Tools:
+        name: Inner Loop - VMware Tanzu Developer Tools
+        exit_sign: Workloads
+    exercises/Workload:
+        name: Workloads
+        exit_sign: Supply Chains
+    exercises/Supply-Chain:
+        name: Supply Chains
+        exit_sign: Deployment
+    exercises/Deployment:
+        name: Deployment
+        exit_sign: Iteration
+    exercises/Iteration:
+        name: Iteration
+        exit_sign: Data Services
+    exercises/Data-Services:
+        name: Data Services
+        exit_sign: Conclusion
+    workshop-summary:
+        name: Workshop Summary
+        exit_sign: Finish Workshop

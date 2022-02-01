@@ -1,0 +1,13 @@
+name: Markdown Sample
+modules:
+  activate:
+    - setup-environment
+    - workshop-overview
+    - exercises/App-Accelerator
+    - exercises/Developer-Tools
+    - exercises/Workload
+    - exercises/Supply-Chain
+    - exercises/Deployment
+    - exercises/Iteration
+    - exercises/Data-Services
+    - workshop-summary
