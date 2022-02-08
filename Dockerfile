@@ -40,6 +40,9 @@ RUN kubectl krew install slice
 RUN chmod 775 -R $HOME/.krew
 RUN rm -rf /tmp/*
 
+RUN apt update
+RUN apt install ruby-full -y
+
 USER 1001
 COPY --chown=1001:0 . /home/eduk8s/
 RUN fix-permissions /home/eduk8s
