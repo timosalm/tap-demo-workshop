@@ -8,3 +8,8 @@ Create a public repository with the following name for GIT user `{{ ENV_GIT_USER
 ```copy
 {{ session_namespace }}
 ```
+
+Extract Supply Chains to be able to show them.
+```
+mkdir supply-chains && kubectl eksporter "clusterconfigtemplate,clusterdeploymenttemplates,clusterimagetemplates,clusterruntemplates,clustersourcetemplates,clustersupplychains,clustertemplates" | kubectl slice -o supply-chains/ -f-
+``` 

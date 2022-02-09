@@ -32,6 +32,3 @@ spec:
               wget -qO- \$(params.source-url) | tar xvz -m
               mvn test
 EOL
-
-mkdir supply-chains
-kubectl eksporter "clusterconfigtemplate,clusterdeploymenttemplates,clusterimagetemplates,clusterruntemplates,clustersourcetemplates,clustersupplychains,clustertemplates" | kubectl slice -o supply-chains/ -f-
