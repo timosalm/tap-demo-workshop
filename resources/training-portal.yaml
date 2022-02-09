@@ -18,6 +18,3 @@ spec:
     - name: tap-demo
       expires: 90m
       orphaned: 90m
-    - name: lab-asciidoc-sample
-      expires: 90m
-      orphaned: 90m
