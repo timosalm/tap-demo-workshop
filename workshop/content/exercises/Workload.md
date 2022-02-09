@@ -43,16 +43,6 @@ text: |
     apps.tanzu.vmware.com/workload-type: web
         apps.tanzu.vmware.com/has-tests: "true"
 ```
-```editor:select-matching-text
-file: spring-sensors-rabbit/config/workload.yaml
-text: "source:"
-```
-```editor:replace-text-selection
-file: spring-sensors-rabbit/config/workload.yaml
-text: |
-    serviceAccountName: {{ session_namespace }}-default
-      source:
-```
 
 Executes the *workload create* command to publish the new application. 
 ```execute
