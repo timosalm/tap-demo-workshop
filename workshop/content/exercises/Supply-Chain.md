@@ -11,7 +11,7 @@ Each pre-approved supply chain creates a paved road to production. Orchestrating
 
 Let's now explore our **Supply Chain with Testing and Scanning** we are using for "web-app" applications:
 ```editor:open-file
-file: supplychain/supplychain.yaml
+file: supplychain/
 ```
 **Monitoring Supply Chain Execution**
 
