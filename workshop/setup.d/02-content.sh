@@ -34,6 +34,4 @@ spec:
 EOL
 
 mkdir supply-chains
-kubectl eksporter clusterconfigtemplate,clusterdeploymenttemplates,clusterimagetemplates,clusterruntemplates,clustersourcetemplates,clustersupplychains,clustertemplates > tmp-supply-chain.yaml 
-kubectl slice -o supply-chains/ -f tmp-supply-chain.yaml
-rm tmp-supply-chain.yaml
+kubectl eksporter "clusterconfigtemplate,clusterdeploymenttemplates,clusterimagetemplates,clusterruntemplates,clustersourcetemplates,clustersupplychains,clustertemplates" | kubectl slice -o supply-chains/ -f-
